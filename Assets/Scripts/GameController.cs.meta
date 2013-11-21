@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dd756744250cd8a43bf034e3a629f660
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - playerLight: {instanceID: 0}
+  - floor: {instanceID: 0}
+  - fire: {instanceID: 0}
+  - camera: {instanceID: 0}
+  - backWall: {instanceID: 0}
+  - levelHolder: {instanceID: 0}
+  - explosion: {fileID: 400000, guid: f45a9a32619091240b3cc650c5e48abf, type: 2}
+  - level: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
