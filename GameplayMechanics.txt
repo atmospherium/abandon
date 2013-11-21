@@ -1,0 +1,7 @@
+Light cast
+Light vision (see tunnels)
+Light run
+Light jump
+Light teleport
+Light platforms (sound)
+Light navigation (no character model)
