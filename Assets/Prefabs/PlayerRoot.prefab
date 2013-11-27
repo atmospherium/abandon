@@ -106,8 +106,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: .109599888, z: 0}
+  m_LocalScale: {x: .319999993, y: .319999993, z: .319999993}
   m_Children:
   - {fileID: 400008}
   m_Father: {fileID: 0}
@@ -118,7 +118,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .516095281, y: -.787160039, z: 0}
+  m_LocalPosition: {x: .523786545, y: -.541040957, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
@@ -129,7 +129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .178531379, y: 1.10071874, z: 0}
+  m_LocalPosition: {x: .150357082, y: 1.1025691, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
@@ -140,7 +140,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0247526318, y: .216287971, z: 0}
+  m_LocalPosition: {x: .0288552642, y: .39817524, z: 0}
   m_LocalScale: {x: .97174567, y: .971744001, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
@@ -152,7 +152,7 @@ Transform:
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: .25, z: 0}
-  m_LocalScale: {x: .25, y: .25, z: .25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400006}
   - {fileID: 400010}
@@ -166,7 +166,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.316276342, y: -.706130028, z: 0}
+  m_LocalPosition: {x: -.289613366, y: -.552305698, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
@@ -194,8 +194,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .370000005, y: .699999988}
-  m_Center: {x: .00999999978, y: .340000004}
+  m_Size: {x: 1, y: 2.47000003}
+  m_Center: {x: .0500000007, y: .610000014}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
