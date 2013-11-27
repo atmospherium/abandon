@@ -22,7 +22,7 @@ public class PlayerControls2D : MonoBehaviour {
 		}
 
 		animator.SetFloat("Speed",Mathf.Abs(h));
-		animator.SetFloat("YSpeed",Mathf.Abs(currentY));
+		animator.SetFloat("YSpeed",currentY);
 
 		rigidbody2D.velocity = new Vector2(h,currentY);
 	}
