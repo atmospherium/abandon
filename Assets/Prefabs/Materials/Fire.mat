@@ -19,14 +19,14 @@ Material:
         second:
           m_Texture: {fileID: 2800000, guid: f6377130fc444c4478db92ca6d1faf7f, type: 3}
           m_Scale: {x: 1, y: 1}
-          m_Offset: {x: -.0431278385, y: .0431278385}
+          m_Offset: {x: -.369840652, y: .369840652}
       data:
         first:
           name: _BumpMap
         second:
           m_Texture: {fileID: 2800000, guid: f6377130fc444c4478db92ca6d1faf7f, type: 3}
           m_Scale: {x: 1, y: 1}
-          m_Offset: {x: .0855209827, y: .0855209827}
+          m_Offset: {x: .737474024, y: .737474024}
       data:
         first:
           name: _Cube
