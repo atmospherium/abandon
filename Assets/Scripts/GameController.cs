@@ -156,6 +156,7 @@ public class GameController : MonoBehaviour {
 				if(fireObject.transform.childCount>0){
 					fireObject.AddComponent<MeshCombiner>();
 					fireObject.GetComponent<MeshCombiner>().Combine();
+					fireObject.gameObject.layer = LayerMask.NameToLayer("Fire");
 				}
 				
 				if(backWallObject.transform.childCount>0){
