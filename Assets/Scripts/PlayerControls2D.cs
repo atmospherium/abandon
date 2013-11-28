@@ -3,9 +3,23 @@ using System.Collections;
 
 public class PlayerControls2D : MonoBehaviour {
 	private Animator animator;
-	float speed = 6f;
+	float speed = 4f;
 	float xScale;
 	float scaleMod = 1;
+
+	private bool isRunning = false;
+	private float _runMod = 1.5f;
+
+	private float runMod {
+		get{
+			if(isRunning){
+				return _runMod;
+			}else{
+				return 1f;
+			}
+		}
+	}
+
 
 	void Start(){
 		animator = GetComponent<Animator>();
@@ -14,7 +28,12 @@ public class PlayerControls2D : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float h = Input.GetAxis("Horizontal")* speed;
+		if(Input.GetKey(KeyCode.LeftShift)){
+			isRunning = true;
+		}else{
+			isRunning = false;
+		}
+		float h = Input.GetAxis("Horizontal") * speed * runMod;
 		bool j = Input.GetButtonDown("Jump");
 
 		float currentY = rigidbody2D.velocity.y;
