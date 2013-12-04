@@ -47,7 +47,7 @@ public class PlayerControls2D : MonoBehaviour {
 		transform.localScale = new Vector2(xScale*scaleMod,transform.localScale.y);
 
 		if(j){
-			currentY = 5;
+			currentY = 6.5f;
 		}
 
 		animator.SetFloat("Speed",Mathf.Abs(h));
